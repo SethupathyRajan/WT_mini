@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width: device-width , initial-scale:1.0">
-        <link rel="stylesheet" href="sytles/index.css">
-        <title>GameHub</title>
-    </head>
-    <body>
-        <header>
-            <h3>GameHub</h3>
-            <div class="nav-bar">
-            <nav>
-                <a href="games/ttt.html">Tic-Tac-Toe</a>
-                 <a href="games/sudoku.html">Sudoku</a>
-                  <a href="games/numGuess.html">Number Guess</a>
-            </nav>
-            </div>
-        </header>
-        <main>
-        <div class="main-container">
-            <h1>Select a Game</h1>
-            <div class="games">
-                <a href="games/ttt.html"><img src="ttt.png" alt="Tic-Tac-Toe">Tic-Tac-Toe</a>
-            </div>
-            <div class="games">
-                <a href="games/sudoku.html"><img src="sudoko.png" alt="Sudoku">Sudoku</a>
-            </div>
-            <div class="games">
-                <a href="games/numguess.html"><img src="numguess.png" alt="Number Guess">Number Guess</a>
-            </div>
-        </div>
-        </main>
-        <footer>No Copyrights Claimed coz there isnt any.</footer>
-   </body>
+<head>
+  <title>GamesHub</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">GamesHub</div>
+    <div class="menu">
+      <a href="tictactoe.html">Play Tic-Tac-Toe</a>
+      <a href="sudoku.html">Play Sudoku</a>
+      <a href="guess.html">Play Number Guess</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to GamesHub</h1>
+    <p>A place to play games</p>
+  </header>
+
+  <section class="games">
+    <h2>Select a Game</h2>
+    <div class="game-grid">
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg" />
+        <a href="tictactoe.html">Play Tic-Tac-Toe</a>
+      </div>
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Sudoku-by-L2G-20050714.svg" />
+        <a href="sudoku.html">Play Sudoku</a>
+      </div>
+      <div class="game-card">
+        <div class="number-icon">100</div>
+        <a href="guess.html">Play Number Guess</a>
+      </div>
+    </div>
+  </section>
+</body>
 </html>

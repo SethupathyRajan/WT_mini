@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  border-bottom: 1px solid #ccc;
+}
+
+nav .menu a {
+  margin-left: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/NES-Controller.jpg');
+  background-size: cover;
+  color: black;
+  padding: 60px 20px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.games {
+  padding: 20px;
+}
+
+.game-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.game-card {
+  background: #ddd;
+  padding: 20px;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+}
+
+.number-icon {
+  font-size: 3em;
+  padding: 40px 0;
+}
